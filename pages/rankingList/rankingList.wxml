@@ -1,0 +1,26 @@
+<!-- 页面背景设置 -->
+<view class="content">
+<<<<<<< HEAD
+  <image class='background' src="https://z3.ax1x.com/2021/10/03/4qaQd1.png" mode="aspectFill"></image>
+</view>
+
+<text>　　</text> 
+<text>{{index1}}</text> 
+=======
+  <image class='background' src="https://i.loli.net/2021/10/07/ImacSQXJfVuZT1A.png" mode="aspectFill"></image>
+</view>
+
+
+<!-- <view wx:key="{{index2}}" wx:key-item="i" wx:for="{{rank}}" wx:for-item="j">
+  <text>　　</text> {{i}}. Player: {{j}}
+</view> -->
+<text>\n \n \n </text>
+<view class="player_text" wx:for="{{index2}}" style="color:white">
+  <view>{{item}}.   player{{rank[index]}}　———— 　{{price1[index]}}</view>
+</view>
+
+<!-- 按钮跳转 -->
+<view class='add_btn'> 
+<button class='btn' bindtap="gameOver" style="position: relative; top: 1245rpx; width: 269rpx; height: 102rpx; display: block; box-sizing: border-box; left: -265rpx">结 束 游 戏</button>
+</view>
+>>>>>>> ec84c01 (最终版本)

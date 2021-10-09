@@ -1,0 +1,11 @@
+<!--start page-->
+
+<!-- 页面背景设置 -->
+<view class="content">
+  <image class='background' src="https://z3.ax1x.com/2021/10/02/4HzyS1.png" mode="aspectFill"></image>
+</view>
+
+<!-- 按钮跳转 -->
+<view class='add_btn'>
+<button class='btn' bindtap="jumpPage">开 始 游 戏</button>
+</view>

@@ -1,0 +1,32 @@
+page {
+  height: 100%
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -1;
+<<<<<<< HEAD
+=======
+}
+
+.player_text{
+  margin-top: 45rpx;
+  margin-left: 45rpx;
+  font-size: x-large;
+}
+
+.add_btn{
+  width: 170%;
+  position: fixed;
+  bottom: 1330rpx;
+}
+.btn{
+  width: 100rpx;
+  background: #fa404071;
+  color: #fff;
+  border-radius: 60rpx;
+  font-size: 40rpx;
+>>>>>>> ec84c01 (最终版本)
+}

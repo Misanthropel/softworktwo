@@ -1,0 +1,71 @@
+<!-- 页面背景设置 -->
+<view class="content">
+  <image class='background' src="https://i.loli.net/2021/10/06/cHbBiLqDkd2rfxS.jpg" mode="aspectFill"></image>
+</view>
+
+<text>　　</text> 
+
+<!-- <text>{{flg}}</text>  -->
+<!-- 骰子1 -->
+<view wx:if="{{list1 == 1}}" class='touzi1_pos'><image class='touzi1' src="https://i.loli.net/2021/10/06/TMIOlwNoPHpjg7X.gif" mode="widthFix" ></image> </view>
+<view wx:elif="{{list1 == 2}}" class='touzi1_pos'><image class='touzi1' src="https://i.loli.net/2021/10/06/PF2hmLpuyDvgTbY.gif" mode="widthFix" ></image> </view>
+<view wx:elif="{{list1 == 3}}" class='touzi1_pos'><image class='touzi1' src="https://i.loli.net/2021/10/06/fh59MDdinIXFxLm.gif" mode=widthFix" ></image> </view>
+<view wx:elif="{{list1 == 4}}" class='touzi1_pos'><image class='touzi1' src="https://i.loli.net/2021/10/06/7x98j5FgB1lIUev.gif" mode="widthFix" ></image> </view>
+<view wx:elif="{{list1 == 5}}" class='touzi1_pos'><image class='touzi1' src="https://i.loli.net/2021/10/06/qrD4Sd65cLRoT9t.gif" mode="widthFix" ></image> </view>
+<view wx:elif="{{list1 == 6}}" class='touzi1_pos'><image class='touzi1' src="https://i.loli.net/2021/10/06/D6JkuRmwZXjoPSy.gif" mode="widthFix" ></image> </view>
+<!-- 骰子2 -->
+<view wx:if="{{list2 == 1}}" class='touzi2_pos'><image class='touzi2' src="https://i.loli.net/2021/10/06/TMIOlwNoPHpjg7X.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list2 == 2}}" class='touzi2_pos'><image class='touzi2' src="https://i.loli.net/2021/10/06/PF2hmLpuyDvgTbY.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list2 == 3}}" class='touzi2_pos'><image class='touzi2' src="https://i.loli.net/2021/10/06/fh59MDdinIXFxLm.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list2 == 4}}" class='touzi2_pos'><image class='touzi2' src="https://i.loli.net/2021/10/06/7x98j5FgB1lIUev.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list2 == 5}}" class='touzi2_pos'><image class='touzi2' src="https://i.loli.net/2021/10/06/qrD4Sd65cLRoT9t.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list2 == 6}}" class='touzi2_pos'><image class='touzi2' src="https://i.loli.net/2021/10/06/D6JkuRmwZXjoPSy.gif" mode="widthFix"></image></view>
+<!-- 骰子3 -->
+<view wx:if="{{list3 == 1}}" class='touzi3_pos'><image class='touzi3' src="https://i.loli.net/2021/10/06/TMIOlwNoPHpjg7X.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list3 == 2}}" class='touzi3_pos'><image class='touzi3' src="https://i.loli.net/2021/10/06/PF2hmLpuyDvgTbY.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list3 == 3}}" class='touzi3_pos'><image class='touzi3' src="https://i.loli.net/2021/10/06/fh59MDdinIXFxLm.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list3 == 4}}" class='touzi3_pos'><image class='touzi3' src="https://i.loli.net/2021/10/06/7x98j5FgB1lIUev.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list3 == 5}}" class='touzi3_pos'><image class='touzi3' src="https://i.loli.net/2021/10/06/qrD4Sd65cLRoT9t.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list3 == 6}}" class='touzi3_pos'><image class='touzi3' src="https://i.loli.net/2021/10/06/D6JkuRmwZXjoPSy.gif" mode="widthFix"></image></view>
+<!-- 骰子4 -->
+<view wx:if="{{list4 == 1}}" class='touzi4_pos'><image class='touzi4' src="https://i.loli.net/2021/10/06/TMIOlwNoPHpjg7X.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list4 == 2}}" class='touzi4_pos'><image class='touzi4' src="https://i.loli.net/2021/10/06/PF2hmLpuyDvgTbY.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list4 == 3}}" class='touzi4_pos'><image class='touzi4' src="https://i.loli.net/2021/10/06/fh59MDdinIXFxLm.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list4 == 4}}" class='touzi4_pos'><image class='touzi4' src="https://i.loli.net/2021/10/06/7x98j5FgB1lIUev.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list4 == 5}}" class='touzi4_pos'><image class='touzi4' src="https://i.loli.net/2021/10/06/qrD4Sd65cLRoT9t.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list4 == 6}}" class='touzi4_pos'><image class='touzi4' src="https://i.loli.net/2021/10/06/D6JkuRmwZXjoPSy.gif" mode="widthFix"></image></view>
+<!-- 骰子5 -->
+<view wx:if="{{list5 == 1}}" class='touzi5_pos'><image class='touzi5' src="https://i.loli.net/2021/10/06/TMIOlwNoPHpjg7X.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list5 == 2}}" class='touzi5_pos'><image class='touzi5' src="https://i.loli.net/2021/10/06/PF2hmLpuyDvgTbY.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list5 == 3}}" class='touzi5_pos'><image class='touzi5' src="https://i.loli.net/2021/10/06/fh59MDdinIXFxLm.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list5 == 4}}" class='touzi5_pos'><image class='touzi5' src="https://i.loli.net/2021/10/06/7x98j5FgB1lIUev.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list5 == 5}}" class='touzi5_pos'><image class='touzi5' src="https://i.loli.net/2021/10/06/qrD4Sd65cLRoT9t.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list5 == 6}}" class='touzi5_pos'><image class='touzi5' src="https://i.loli.net/2021/10/06/D6JkuRmwZXjoPSy.gif" mode="widthFix"></image></view>
+<!-- 骰子6 --> 
+<view wx:if="{{list6 == 1}}" class='touzi6_pos'><image class='touzi6' src="https://i.loli.net/2021/10/06/TMIOlwNoPHpjg7X.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list6 == 2}}" class='touzi6_pos'><image class='touzi6' src="https://i.loli.net/2021/10/06/PF2hmLpuyDvgTbY.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list6 == 3}}" class='touzi6_pos'><image class='touzi6' src="https://i.loli.net/2021/10/06/fh59MDdinIXFxLm.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list6 == 4}}" class='touzi6_pos'><image class='touzi6' src="https://i.loli.net/2021/10/06/7x98j5FgB1lIUev.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list6 == 5}}" class='touzi6_pos'><image class='touzi6' src="https://i.loli.net/2021/10/06/qrD4Sd65cLRoT9t.gif" mode="widthFix"></image></view>
+<view wx:elif="{{list6 == 6}}" class='touzi6_pos'><image class='touzi6' src="https://i.loli.net/2021/10/06/D6JkuRmwZXjoPSy.gif" mode="widthFix"></image></view>    
+
+
+<!-- 按钮跳转 -->
+<view class='add_btn'> 
+<button class='btn' bindtap="jumpRulesPage">游戏规则</button>
+</view>
+
+<!-- 掷骰子按钮 -->
+<view class='add_btn1'>
+<button class='btn1' bindtap="zhitouzi" style="position: relative; left: 0rpx; top: 114rpx">     
+<text>　　　　　</text> 博　一　博</button>
+</view>
+
+<!-- 结束按钮 -->
+<view class='add_btn2'>
+<<<<<<< HEAD
+<button class='btn2' bindtap="endGame" style="position: relative; top: 70rpx; left: 0rpx">结束游戏</button>
+=======
+<button class='btn2' bindtap="endGame" style="position: relative; top: 70rpx; left: 0rpx">结 束</button>
+>>>>>>> ec84c01 (最终版本)
+</view>

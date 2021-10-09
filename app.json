@@ -1,0 +1,36 @@
+{
+  "pages":[
+<<<<<<< HEAD
+    "pages/gamePage/gamePage",
+    "pages/start/start",
+=======
+    "pages/start/start",
+    "pages/gamePage/gamePage",
+
+>>>>>>> ec84c01 (最终版本)
+    "pages/chooseGame/chooseGame",
+    "pages/chooseOnlinePattern/chooseOnlinePattern",
+    "pages/createRoom/createRoom",
+    "pages/joinRoom/joinRoom", 
+    "pages/rankingList/rankingList",
+    "pages/gameRules/gameRules",
+
+<<<<<<< HEAD
+
+=======
+    "pages/gameOver/gameOver",
+>>>>>>> ec84c01 (最终版本)
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{ 
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "中秋博饼小游戏",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

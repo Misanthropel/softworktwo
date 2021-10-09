@@ -1,0 +1,9 @@
+<!-- 页面背景设置 -->
+<view class="content">
+  <image class='background' src="https://i.loli.net/2021/10/08/SK2UekFIHnaubrD.png" mode="aspectFill"></image>
+</view>
+
+<!-- 按钮跳转 -->
+<view class='add_btn'> 
+<button class='btn' bindtap="playAgain" style="position: relative; top: 1171rpx; width: 269rpx; height: 102rpx; display: block; box-sizing: border-box; left: -265rpx">再 玩 一 次</button>
+</view>
