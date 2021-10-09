@@ -1,0 +1,17 @@
+<!--pages/chooseGame/chooseGame.wxml-->
+<!-- 页面背景设置 -->
+<view class="content">
+  <image class='background' src="https://z3.ax1x.com/2021/10/02/4Hz6Qx.jpg" mode="aspectFill"></image>
+</view>
+
+<view class='add_btn1'>
+  <button class="btn" bindtap="jumpGamePage">
+    单机模式
+  </button>
+</view>
+
+<view class='add_btn2'>
+  <button class="btn" bindtap="jumpOnlinePage">
+    联机模式
+  </button>
+</view>

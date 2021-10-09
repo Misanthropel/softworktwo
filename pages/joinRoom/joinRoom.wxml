@@ -1,0 +1,17 @@
+<!-- 页面背景设置 -->
+<view class="content">
+  <image class='background' src="https://z3.ax1x.com/2021/10/02/4bCTUS.png" mode="aspectFill"></image>
+</view>
+
+<!-- 按钮跳转 -->
+<view class='add_btn'>
+<button class='btn' bindtap="jumpPage">加 入 房 间</button>
+</view>
+
+
+<!-- 输入部分（未完善） -->
+<!-- 输入房间号 -->
+<input type="text" bindinput="inputRoomNumber" />
+<view>
+  
+</view>
